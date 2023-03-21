@@ -1,0 +1,44 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+  list-style: none;
+}
+
+body {
+  background-color: teal;
+  color: #fff;
+}
+
+.App {
+  margin: 10px;
+}
+
+.searchDiv {
+  border: 1px solid #fff;
+  padding: 10px;
+  border-radius: 5px;
+}
+
+.searchDiv form {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+}
+
+.searchDiv form input {
+  width: 500px;
+  padding: 10px;
+  margin-top: 10px;
+}
+
+.imageList {
+  columns: 250px 5;
+  column-gap: 10px;
+}
+
+.img {
+  width: 100%;
+  margin-bottom: 10px;
+}
